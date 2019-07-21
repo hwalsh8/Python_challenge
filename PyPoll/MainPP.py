@@ -10,8 +10,8 @@ cand_votes = {}
 #list for county and candidate
 election_data = ["1", "2"]
 
-#create a path for data
-election_data = os.path.join("Resources", "election_data.csv")
+#create a path for data, sample of 10,000 for git repo upload
+election_data = os.path.join("Resources", "election_data_sample.csv")
 
 #open the file
 with open(election_data) as pypoll_data:
